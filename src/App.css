@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+header p {
+  font-size: 50px;
+}
+
+.style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 200px;
+}
+.button- {
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+.buttonplus {
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+.button-:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.buttonplus:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.countpurple {
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  background-color: #5c47d3;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.countpurple:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.reset p {
+  background-color: #5c47d3;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.reset p:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.doNotMove {
+  height: 100px;
+  width: 100px;
+}
+/* ----------footer-----------*/
+
+footer {
+  padding: 20px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+}
+span {
+  font-weight: bold;
+}
